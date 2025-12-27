@@ -29,7 +29,9 @@ The solution uses a **U-Net architecture**, deployed as a **real-time web applic
 ---
 
 ## 🚀 Demo
+You can try the **real-time Butterfly Semantic Segmentation** application here:
 
+🔗 https://huggingface.co/spaces/Atish020/butterfly-semantic-segmentation-unet
 - Upload a butterfly image  
 - Get **real-time segmentation mask**
 - View **original image & predicted mask side-by-side**
