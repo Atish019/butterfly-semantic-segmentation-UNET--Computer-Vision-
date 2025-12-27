@@ -1,0 +1,38 @@
+# Python-
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Model & Data (Optional)
+saved_model/
+*.h5
+*.keras
+
+# Docker
+__docker__
+docker-compose.yml
+node_modules/
+uploads/
+temp/

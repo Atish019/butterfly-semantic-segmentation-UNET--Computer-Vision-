@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Butterfly Segmentation App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <h1>🦋 Butterfly Segmentation App</h1>
+    <p class="subtitle">Semantic Image Segmentation using U-Net</p>
+
+    <div class="upload-box">
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="predict()">Predict</button>
+    </div>
+
+    <div class="result-container">
+        <div class="image-box">
+            <h3>Original Image</h3>
+            <img id="originalImage" />
+        </div>
+
+        <div class="image-box">
+            <h3>Predicted Mask</h3>
+            <img id="maskImage" />
+        </div>
+    </div>
+
+    <p id="status"></p>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
