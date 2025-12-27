@@ -28,7 +28,7 @@ The solution uses a **U-Net architecture**, deployed as a **real-time web applic
 
 ---
 
-## 🚀 Demo
+# 🚀 Demo
 You can try the **real-time Butterfly Semantic Segmentation** application here:
 
 [![Hugging Face Space](https://img.shields.io/badge/HuggingFace-Live%20Demo-yellow?logo=huggingface)](https://huggingface.co/spaces/Atish020/butterfly-semantic-segmentation-unet)
